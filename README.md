@@ -1,7 +1,9 @@
 📞 LIVE CALL - Premium Call Spoofing Tool
 
 <div align="center">
+  <img <div align="center">
   <img src="https://github.com/shahid2005a/Live-Call/blob/main/LIVE%20CALL/Live.png" alt="LIVE CALL Logo" width="300">
+</div>
 
 🔥 LIVE CALL TOOL 🔥
 
