@@ -184,6 +184,19 @@ python main.py
 pkg update -y && pkg upgrade -y && pkg install python git cloudflared python-pip -y && pip install flask colorama requests && git clone https://github.com/shahid2005a/Live-Call.git && cd Live-Call && python main.py
 ```
 
+# Kali Linux install Commands 
+sudo apt update && sudo apt upgrade -y
+
+sudo apt install -y python3 python3-pip git
+
+wget https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb
+
+git clone https://github.com/shahid2005a/Live-Call.git
+cd Live-Call
+
+pip3 install flask requests colorama
+
+python3 main.py
 ---
 
 🛠️ Troubleshooting
