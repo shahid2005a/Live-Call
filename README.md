@@ -171,7 +171,7 @@ pkg update -y && pkg upgrade -y && pkg install python git cloudflared python-pip
 ⚡ Single Command Kali Linux 
 
 ```bash
-pkg update -y && pkg upgrade -y && pkg install python git cloudflared python-pip -y && pip install flask colorama requests && git clone https://github.com/shahid2005a/Live-Call.git && cd Live-Call && python main.py
+sudo apt update && sudo apt upgrade -y && sudo apt install python3 python3-pip git -y && pip3 install flask colorama requests && git clone https://github.com/shahid2005a/Live-Call.git && cd Live-Call && unzip -o static.zip && python3 Main.py
 ```
 wget https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64
 sudo mv cloudflared-linux-amd64 /usr/local/bin/cloudflared
