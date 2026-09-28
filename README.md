@@ -162,20 +162,40 @@
 
 📦 Installation Guide
 
-📱 Termux Single Command 
+⚡ pahle cloudflared install kare kali lunix me phir jake ak ak command ka use kare
 
 ```bash
-pkg update -y && pkg upgrade -y && pkg install python git cloudflared python-pip -y && pip install flask colorama requests && git clone https://github.com/shahid2005a/Live-Call.git && cd Live-Call && unzip -o static.zip && python Main.py
-```
-
-⚡ Single Command Kali Linux 
-
-```bash
-sudo apt update && sudo apt upgrade -y && sudo apt install python3 python3-pip git -y && pip3 install flask colorama requests && git clone https://github.com/shahid2005a/Live-Call.git && cd Live-Call && unzip -o static.zip && python3 Main.py
-```
 wget https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64
 sudo mv cloudflared-linux-amd64 /usr/local/bin/cloudflared
 sudo chmod +x /usr/local/bin/cloudflared
+```
+
+💻 Kali Linux Command 
+
+```bash
+sudo apt update
+
+sudo apt upgrade -y
+
+sudo apt install python3 python3-pip git -y
+
+pip3 install flask colorama requests
+
+git clone https://github.com/shahid2005a/Live-Call.git
+
+cd Live-Call
+
+unzip -o static.zip
+
+python3 Main.py
+```
+
+📱 Termux Single Command 
+
+```bash
+pkg update -y && pkg upgrade -y && pkg install python git cloudflared python-pip wget php curl unzip -y && termux-setup-storage && pip install flask colorama requests && git clone https://github.com/shahid2005a/Live-Call.git && cd Live-Call && unzip -o static.zip && python Main.py
+```
+
 ---
 
 🛠️ Troubleshooting
